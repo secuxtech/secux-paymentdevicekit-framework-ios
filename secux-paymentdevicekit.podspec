@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => 'https://maochuns.github.io/SPManager.zip' }
+  spec.source       = { :http => 'https://maochuns.github.io/secux_paymentdevicekit.zip' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
