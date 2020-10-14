@@ -16,9 +16,12 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "secux-paymentdevicekit"
-  spec.version      = "2.0.9"
+  spec.version      = "2.0.11"
   spec.summary      = "A framework for using SecuX P22/P20 V2 device"
-
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -82,8 +85,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :http => 'https://maochuns.github.io/secux_paymentdevicekit.zip' }
-
-
+ 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
