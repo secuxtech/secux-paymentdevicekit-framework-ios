@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "secux-paymentdevicekit"
-  spec.version      = "2.0.11"
+  spec.version      = "2.0.12"
   spec.summary      = "A framework for using SecuX P22/P20 V2 device"
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
