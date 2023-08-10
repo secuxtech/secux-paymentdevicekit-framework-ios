@@ -56,10 +56,10 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "maochunsun" => "maochuns.sun@gmail.com" }
-  # Or just: spec.author    = "maochunsun"
+  spec.author             = { "judy" => "judywang@secuxtech.com" }
+  # Or just: spec.author    = "judy"
   # spec.authors            = { "maochunsun" => "maochuns.sun@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/maochunsun"
+  # spec.social_media_url   = "https://twitter.com/jwang0408"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -84,7 +84,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => 'https://maochuns.github.io/secux_paymentdevicekit.zip' }
+  spec.source       = { :http => 'https://github.com/secuxtech/sdkzip/secux-paymentdevicekit-merchant copy.framework.zip' }
  
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
